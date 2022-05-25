@@ -69,8 +69,8 @@ And you can get the builds from `./web` folder
 
 👤 **Alimony Godfrey**
 
-- GitHub:https://github.com/Godfrey-Alimony
-- LinkedIn:https://www.linkedin.com/in/alimony-godfrey-8aba3136
+- GitHub:[@githubhandle](https://github.com/Godfrey-Alimony)
+- [LinkedIn]:[LinkedIn](https://www.linkedin.com/in/alimony-godfrey-8aba3136)
 
 🤝 Contributing
 
