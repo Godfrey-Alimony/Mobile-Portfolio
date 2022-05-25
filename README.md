@@ -1,4 +1,4 @@
-(https://github.com/Godfrey-Alimony)
+https://github.com/Godfrey-Alimony
 
 # Mobile-portfolio website.
 
@@ -11,8 +11,13 @@ IMPORTANT NOTE: Read all requirements before you start building your project.
 
 ## Built With
 
-Html
-css
+HTML
+CSS
+Linters
+
+### Getting Started
+
+To get a local copy up and running follow these simple example steps. 1-Click on Code button. 2-Choose Download ZIP button.
 
 ### 1. Prerequisite
 
@@ -24,12 +29,19 @@ At first time, please install npm modules
 
 ```
 npm install
-```
+
+ ###To install necessary dependencies  for it to run properly,
+
+you need to initialize npm to create package.json file.
+
+npm init -y or (npm install --save-dev hint@6.x)
 
 ### 3. Demo Result
 
 ```
+
 npm start
+
 ```
 
 And you can start demo via `https://localhost:5501`
@@ -37,7 +49,9 @@ And you can start demo via `https://localhost:5501`
 ### 4. Builds for publish
 
 ```
+
 npm run build
+
 ```
 
 And you can get the builds from `./web` folder
@@ -55,8 +69,8 @@ And you can get the builds from `./web` folder
 
 👤 **Alimony Godfrey**
 
-- GitHub:(https://github.com/Godfrey-Alimony)
-- LinkedIn:(www.linkedin.com/in/alimony-godfrey-8aba3136)
+- GitHub:https://github.com/Godfrey-Alimony
+- LinkedIn:https://www.linkedin.com/in/alimony-godfrey-8aba3136
 
 🤝 Contributing
 
@@ -76,3 +90,4 @@ Acknowledgments
   📝 License
 
 This project is [MIT](./MIT.md) licensed.
+```
