@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* fonts.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@font-face {
+  font-family: "FontAwesome";
+  font-weight: normal;
+  font-style: normal;
+  src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
+  src:
+    url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0")
+    format("embedded-opentype"),
+    url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0")
+    format("woff2"),
+    url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0")
+    format("woff"),
+    url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0")
+    format("truetype"),
+    url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular")
+    format("svg");
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+figure {
+  display: block;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0;
+  border-width: 0;
+}
+
+ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: block;
+}
+
+/* CSS Resets */
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  width: 375px;
+  height: 604px;
+  top: 0;
+  left: calc(50% - 375px / 2);
+  background-color: #e5e5e5;
+}
+
+/* Start Nav bar */
+
+.top-nav {
+  overflow: hidden;
+  background-color: #6070ff;
+  position: relative;
+  z-index: 1;
+  color: #f7f7f9;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+
+.top-nav .myLinks {
+  display: none;
+}
+
+.logo {
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+/* Style navigation menu links */
+
+.top-nav a {
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+
+.top-nav a.icon {
+  background: #f7f7f9;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+
+.top-nav a:hover {
+  background-color: #ddd;
+  color: #6070ff;
+  cursor: pointer;
+  text-decoration: #6070ff;
+}
+
+/* Style the active link (or home/logo) */
+
+.active {
+  background-color: #f7f7f9;
+  color: #6070ff;
+  font: bold;
+  font-size: 30px;
+  width: 375px;
+  height: 50px;
+  top: auto;
+  font-weight: 900px;
+}
+
+/* End of-Nav bar */
+
+/*  Headline-section  */
+
+.Portfolio-main {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f9;
+}
+
+.Portfolio-main.layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 5410px;
+  flex-shrink: 0;
+}
+
+.Portfolio-flex {
+  display: flex;
+  flex-direction: column;
+  background: url(./img/backgroung.png) no-repeat;
+}
+
+.Portfolio-flex.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 16px 15px;
+}
+
+.Portfolio-flex1 {
+  display: flex;
+}
+
+.Portfolio-flex1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0 0 0 17px;
+}
+
+.Portfolio-text-body2 {
+  display: flex;
+  justify-content: center;
+  font: 500 14px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: black;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.Portfolio-text-body2.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+
+.Portfolio-flex1-spacer {
+  flex: 0 1 230px;
+}
+
+.Portfolio-image7 {
+  background: url() center center/contain no-repeat;
+}
+
+.Portfolio-image7.layout {
+  position: relative;
+  height: 12px;
+  width: 18px;
+  min-width: 18px;
+  margin: 4px 0;
+}
+
+.Portfolio-hero-title-box {
+  display: flex;
+  align-items: center;
+}
+
+.Portfolio-hero-title-box.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 12px 9px 0;
+}
+
+.Portfolio-hero-title {
+  overflow: visible;
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 700 40px/1.3 "Poppins", Helvetica, Arial, serif;
+  color: #172b4d;
+  letter-spacing: 0;
+  white-space: pre-wrap;
+}
+
+.Portfolio-highlights2 {
+  font: 16px/1.5 "Poppins", Helvetica, Arial, serif;
+  color: #344563;
+  letter-spacing: 0;
+}
+
+.Portfolio-highlights2.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin-top: 35px 9px 0;
+}
+
+.Portfolio-highlights3 {
+  font: 500 16px/1.5 "Poppins", Helvetica, Arial, serif;
+  color: #7f8cff;
+  letter-spacing: 0;
+}
+
+.Portfolio-highlights3.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 14px 9px 0;
+}
+
+.Portfolio-icon .layout {
+  display: flex;
+  flex-direction: row;
+}
+
+.Portfolio-flex3 {
+  display: flex;
+}
+
+.Portfolio-flex3.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 12px 9px 120px;
+}
+
+.Portfolio-flex3-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 20px;
+}
+
+.Portfolio-icon.layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 170.17px;
+  height: 20px;
+}
+
+.Portfolio-icon {
+  background: var(--src) center center/contain no-repeat;
+  font-size: 30px;
+}
+
+.fa {
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  color: blue;
+}
+
+.fa-facebook-f {
+  color: #4267b2;
+}
