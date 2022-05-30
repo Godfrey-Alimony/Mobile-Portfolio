@@ -504,6 +504,10 @@ body {
 }
 
 .grid {
+  display: flex;
+  float: left;
+
+  /*
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
@@ -515,7 +519,7 @@ body {
   top: 180px;
   margin: 12px 0;
   order: 0;
-  flex-grow: 0;
+  flex-grow: 0; */
 }
 
 .item1 {
@@ -806,7 +810,10 @@ body {
 }
 
 .grid-container {
-  display: grid;
+  display: flex;
+  float: left;
+
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   padding: 0;
@@ -817,7 +824,7 @@ body {
   top: 224px;
   flex: none;
   flex-grow: 0;
-  margin: 12px 0;
+  margin: 12px 0; */
 }
 
 .item-html {
