@@ -10,16 +10,17 @@
   font-weight: normal;
   font-style: normal;
   src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
-  src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0")
-      format("embedded-opentype"),
+  src:
+    url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0")
+    format("embedded-opentype"),
     url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0")
-      format("woff2"),
+    format("woff2"),
     url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0")
-      format("woff"),
+    format("woff"),
     url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0")
-      format("truetype"),
+    format("truetype"),
     url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular")
-      format("svg");
+    format("svg");
 }
 
 *,
@@ -45,10 +46,10 @@ figure {
   border-width: 0;
 }
 
- img {
-   padding: 0;
-   margin: 0;
- }
+img {
+  padding: 0;
+  margin: 0;
+}
 
 ul {
   display: block;
@@ -2140,7 +2141,7 @@ img:hover {
 
 /* End-of-Aboutme */
 
-/*Contact-me*/
+/* Contact-me */
 
 .contactme-section7 {
   display: flex;
@@ -2160,10 +2161,9 @@ img:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background: #6070ff;
+  background-color: #6070ff;
   padding: 10px;
   border-top-left-radius: 50px;
-
 }
 
 .contactme-cover2.layout {
@@ -2212,7 +2212,7 @@ img:hover {
   height: 5px;
   left: calc(50% - 134px / 2 - 0.5px);
   bottom: 8px;
-  background: #0d151e;
+  background-color: #0d151e;
   border-radius: 10px;
 }
 
@@ -2236,7 +2236,6 @@ img:hover {
   height: min-content;
   bottom: 0;
   right: 0;
-  
 }
 
 .contactme-subtitle1-box {
@@ -2353,4 +2352,5 @@ img:hover {
   position: fixed;
   width: 100%;
 }
-/*End of contact-me*/
+
+/* End of contact-me */
