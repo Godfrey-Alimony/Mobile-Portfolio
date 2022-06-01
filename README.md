@@ -1,55 +1,40 @@
-[@githubhandle](https://github.com/Godfrey-Alimony)
-
+[@Alimony-Godfrey](https://github.com/Godfrey-Alimony)
 # Mobile-portfolio website.
 
 Description the project.
-For the second milestone in building your portfolio website, you will create the mobile website section where you will list your portfolio projects.
+For the third milestone of your portfolio website, you will:
+Add a contact form to your portfolio and the portfolio of your coding partner.
+Make sure that you guide your users' experience in a way that helps them fill in the form without frustration.
 IMPORTANT NOTE: Read all requirements before you start building your project.
 ## Built With
-
 HTML
 CSS
 Linters
-
 ### Getting Started
-
 To get a local copy up and running follow these simple example steps. 1-Click on Code button. 2-Choose Download ZIP button.
-
 ### 1. Prerequisite
-
 In order to use `npm`, please install [nodejs](https://nodejs.org/en/download/) first
-
 ### 2. Installation
-
+```
 At first time, please install npm modules
-
 ```
 npm install
-
- ###To install necessary dependencies  for it to run properly,
-
+#### 3. To install necessary dependencies  for it to run properly.
+```
 you need to initialize npm to create package.json file.
-
 npm init -y or (npm install --save-dev hint@6.x)
-
+```
 ### 3. Demo Result
-
 ```
-
 npm start
-
 ```
-
 And you can start demo via `https://localhost:5501`
-
 ### 4. Builds for publish
 
 ```
-
 npm run build
 
 ```
-
 And you can get the builds from `./web` folder
 
 ### Folder Structure of Source Code
